@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(church2.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+
+}
+
+.logo {
+    color: white;
+    float: left;    
+}
+
+.log {
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Festive', cursive;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.logs {
+    color: white;
+    font-size: 13px;
+    font-family: 'Stylish', sans-serif;
+    float: left;
+    padding-top: 69px;
+    position: absolute; 
+}
+.menu {
+    float: right;
+    flex: 1;
+
+}
+.links {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 40px;
+    flex: 1;
+}
+.link {
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 70px;
+    padding-right: 25px;
+    transition: 0.4s ease-in-out;
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 12px;
+}
+.link:hover{
+    color: rgb(180, 48, 180);
+}
+
+.seach {
+     display: flex;
+     position: inherit;
+     padding-top: 40px;
+     padding-left: 20px;
+     padding-right: 10px;
+}
+.srch {
+    font-family: Verdana;
+    background: transparent;
+    border: 1px solid purple;
+    color: whitesmoke;
+}
+
+.btn {
+    border-bottom-left-radius: 1px;
+    background: purple;
+    border: 1px solid whitesmoke;
+}
+.srch:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+
+.content {
+    color: whitesmoke;
+    padding-top: 200px;
+    padding-left: 120px;
+    align-content: center;
+    }
+.cont {
+    font-size: 100px;
+    line-height: 70px;
+    padding-bottom: 30px;
+}
+.tent {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    }
+.ent {
+    background: violet;
+    border-radius: 7px;
+    border: none; 
+    justify-content: center; 
+    align-content: center;
+    cursor: pointer;
+    height: 5%;
+    width:10%;
+    
+}
+
+.ent a {
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 15px;
+    transition: 0.3s ease;
+    font-weight: bolder;
+}
+
+.ent:hover{
+    background: white;
+}
+
+.content span {
+    color: rgb(233, 171, 217);
+}
+
+.seach ::placeholder {
+    color: white;
+    opacity: 20px;
+}
+button {
+    background: whitesmoke;
+}
